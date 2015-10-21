@@ -46,9 +46,18 @@ a {
 .boxing_glove {
   max-height: 10em;
   max-width: 10em;
+  padding-top: 2em;
   margin-bottom: 3em;
-  transform: scale(0.95) translate3d(100px, 50px, 200px);
-  transition: transfrom 1000ms ease;
+  transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+}
+
+.stateOne {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+.stateTwo {
+    opacity: .5;
+    transform: scale(1.5, 1.5);
 }
 
 .contact_card {

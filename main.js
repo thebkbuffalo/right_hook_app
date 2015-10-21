@@ -1,4 +1,10 @@
-// $(document).ready(function(){
-//   var glove = $(.boxing_glove)
-//   glove
-// });
+$(document).ready(function(){
+  var glove = $('.boxing_glove');
+
+  function setup(){
+    glove.on('mouseover', setInitialClass, false)
+  }
+  
+  setup();
+
+});
