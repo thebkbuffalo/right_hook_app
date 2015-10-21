@@ -11,14 +11,24 @@ a {
   margin: 3em 0 5em 0;
 }
 
-.curate_logo {
+.logo_section {
   margin: 3em 0;
+}
+
+.curate_logo {
+  max-height: 35em;
+  max-width: 35em;
 }
 
 .contact {
   margin: 3em 0;
 }
 
-.boxing_glove {
+.boxing_glove_box {
   margin-top: 3em;
+}
+
+.boxing_glove {
+  max-height: 15em;
+  max-width: 15em;
 }
