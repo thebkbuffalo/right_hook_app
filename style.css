@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.title {
+  margin: 3em 0 5em 0;
+}
+
+.curate_logo {
+  margin: 3em 0;
+}
+
+.contact {
+  margin: 3em 0;
+}
+
+.boxing_glove {
+  margin-top: 3em;
+}
