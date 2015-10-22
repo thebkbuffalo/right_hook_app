@@ -35,7 +35,6 @@ a {
   margin-top: -5.3em;
   margin-right: 16.5em;
   color: white;
-  /*display: inline-block;*/
 }
 
 .boxing_glove_box {
@@ -43,48 +42,13 @@ a {
   text-align: center;
 }
 
-.boxing_glove_one {
+.boxing_glove {
   max-height: 10em;
   max-width: 10em;
   padding: 0 3em;
   margin: .5em;
-  /*-webkit-animation:spin 1s linear infinite;
-  -moz-animation:spin 1s linear infinite;
-  animation:spin 1s linear infinite;*/
 }
 
-.boxing_glove_two {
-  max-height: 10em;
-  max-width: 10em;
-  padding: 0 3em;
-  margin: .5em;
-  /*-webkit-animation:spin 2s linear infinite;
-  -moz-animation:spin 2s linear infinite;
-  animation:spin 2s linear infinite;*/
-}
-
-.boxing_glove_three {
-  max-height: 10em;
-  max-width: 10em;
-  padding: 0 3em;
-  margin: .5em;
-  /*-webkit-animation:spin 2s linear infinite;
-  -moz-animation:spin 2s linear infinite;
-  animation:spin 2s linear infinite;*/
-}
-
-.boxing_glove_four {
-  max-height: 10em;
-  max-width: 10em;
-  padding: 0 3em;
-  margin: .5em;
-  /*-webkit-animation:spin 1s linear infinite;
-  -moz-animation:spin 1s linear infinite;
-  animation:spin 1s linear infinite;*/
-}
-/*@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }*/
 
 .contact_card {
   max-width: 14em;
