@@ -39,25 +39,51 @@ a {
 }
 
 .boxing_glove_box {
-  margin-top: 1.1em;
+  margin-top: 1em;
   text-align: center;
 }
 
-.boxing_glove {
+.boxing_glove_one {
   max-height: 10em;
   max-width: 10em;
-  padding-top: 2em;
-  margin-bottom: 3em;
-  transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+  padding: 0 3em;
+  margin: .5em;
+  -webkit-animation:spin 2s linear infinite;
+  -moz-animation:spin 2s linear infinite;
+  animation:spin 2s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.boxing_glove_two {
+  max-height: 10em;
+  max-width: 10em;
+  padding: 0 3em;
+  margin: .5em;
+  -webkit-animation:spin 1.75s linear infinite;
+  -moz-animation:spin 1.75s linear infinite;
+  animation:spin 1.75s linear infinite;
 }
 
-.stateOne {
-    opacity: 1;
-    transform: scale(1, 1);
+.boxing_glove_three {
+  max-height: 10em;
+  max-width: 10em;
+  padding: 0 3em;
+  margin: .5em;
+  -webkit-animation:spin 1.5s linear infinite;
+  -moz-animation:spin 1.5s linear infinite;
+  animation:spin 1.5s linear infinite;
 }
-.stateTwo {
-    opacity: .5;
-    transform: scale(1.5, 1.5);
+
+.boxing_glove_four {
+  max-height: 10em;
+  max-width: 10em;
+  padding: 0 3em;
+  margin: .5em;
+  -webkit-animation:spin 1s linear infinite;
+  -moz-animation:spin 1s linear infinite;
+  animation:spin 1s linear infinite;
 }
 
 .contact_card {
