@@ -48,22 +48,19 @@ a {
   max-width: 10em;
   padding: 0 3em;
   margin: .5em;
-  -webkit-animation:spin 2s linear infinite;
-  -moz-animation:spin 2s linear infinite;
-  animation:spin 2s linear infinite;
+  -webkit-animation:spin 1s linear infinite;
+  -moz-animation:spin 1s linear infinite;
+  animation:spin 1s linear infinite;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .boxing_glove_two {
   max-height: 10em;
   max-width: 10em;
   padding: 0 3em;
   margin: .5em;
-  -webkit-animation:spin 1.75s linear infinite;
-  -moz-animation:spin 1.75s linear infinite;
-  animation:spin 1.75s linear infinite;
+  -webkit-animation:spin 2s linear infinite;
+  -moz-animation:spin 2s linear infinite;
+  animation:spin 2s linear infinite;
 }
 
 .boxing_glove_three {
@@ -71,9 +68,9 @@ a {
   max-width: 10em;
   padding: 0 3em;
   margin: .5em;
-  -webkit-animation:spin 1.5s linear infinite;
-  -moz-animation:spin 1.5s linear infinite;
-  animation:spin 1.5s linear infinite;
+  -webkit-animation:spin 2s linear infinite;
+  -moz-animation:spin 2s linear infinite;
+  animation:spin 2s linear infinite;
 }
 
 .boxing_glove_four {
@@ -85,6 +82,9 @@ a {
   -moz-animation:spin 1s linear infinite;
   animation:spin 1s linear infinite;
 }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .contact_card {
   max-width: 14em;
